@@ -16,5 +16,10 @@ Backbone.history.start();
 
 new app();
 
+var i = 2;
+do{
+
+}while (i--); return 1;
+
 
 });
