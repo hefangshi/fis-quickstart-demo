@@ -4,21 +4,30 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Todo</title>
-    <link rel="stylesheet" type="text/css" href="/lib/base.css">
-    <script type="text/javascript" src="lib/mod.js"></script>
-    <script type="text/javascript" src="modules/routers/router.js"></script>
-    <script type="text/javascript" src="modules/collections/todos.js"></script>
-    <script type="text/javascript" src="modules/models/todo.js"></script>
-    <script type="text/javascript" src="modules/backbone/backbone.js"></script>
-    <script type="text/javascript" src="modules/underscore/underscore.js"></script>
-    <script type="text/javascript" src="modules/jquery/jquery.js"></script>
-    <script type="text/javascript" src="modules/vendor/backbone.localStorage.js"></script>
-    <script type="text/javascript" src="modules/common/common.js"></script>
-    <script type="text/javascript" src="modules/views/app.js"></script>
-    <script type="text/javascript" src="modules/views/todos.js"></script>
-    <script type="text/javascript" src="modules/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="/lib/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/lib/main.css">
+    <link rel="stylesheet" type="text/css" href="/lib/base.css"/>
+    <script type="text/javascript" src="/lib/mod.js"></script>
+    <script type="text/javascript" src="/modules/collections/todos.js"></script>
+    <script type="text/javascript" src="/modules/views/app.js"></script>
+    <script type="text/javascript" src="/modules/models/todo.js"></script>
+    <script type="text/javascript" src="/modules/views/todos.js"></script>
+    <script type="text/javascript" src="/modules/routers/router.js"></script>
+    <script type="text/javascript" src="/modules/backbone/backbone.js"></script>
+    <script type="text/javascript" src="/modules/underscore/underscore.js"></script>
+    <script type="text/javascript" src="/modules/jquery/jquery.js"></script>
+    <script type="text/javascript" src="/modules/vendor/backbone.localStorage.js"></script>
+    <script type="text/javascript" src="/modules/common/common.js"></script>
+    <script type="text/javascript" src="/modules/main.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://hefangshi.github.io/fis-site/assets/themes/fis/js/html5shiv.js"></script>
+    <script src="http://hefangshi.github.io/fis-site/assets/themes/fis/js/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
+    <script type="text/javascript" data-fixed="true">
+        //this script tag won't be move by reqmin
+    </script>
     <section id="todoapp">
         <header id="header">
             <h1>todos</h1>
