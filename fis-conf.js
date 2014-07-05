@@ -15,13 +15,11 @@
 //     ]
 // });
 
-//autoCombine设置是否将零散资源进行合并，关闭此功能则只会自动将页面中的零散资源按pack设置进行合并
-
-//取消下面的注释可以关闭simple对零散资源的自动合并，但是依然会将pack的资源引用自动替换
-// fis.config.set('settings.postpackager.simple.autoCombine', false);
+//Step 3. 取消下面的注释可以开启simple对零散资源的自动合并
+// fis.config.set('settings.postpackager.simple.autoCombine', true);
 
 
-//Step 3. 取消下面的注释开启图片合并功能
+//Step 4. 取消下面的注释开启图片合并功能
 // fis.config.set('roadmap.path', [{
 //     reg: '**.css',
 //     useSprite: true
